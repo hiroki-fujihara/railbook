@@ -15,6 +15,8 @@ class BooksController < ApplicationController
   # GET /books/new
   def new
     @book = Book.new
+    @book.price = 0
+    @book.cd = true
   end
 
   # GET /books/1/edit
@@ -28,7 +30,7 @@ class BooksController < ApplicationController
 
     respond_to do |format|
       if @book.save
-        format.html { redirect_to @book, notice: 'Book was successfully created.' }
+        format.html { redirect_to @book, notice: @book.title + 'の登録が完了しました。' }
         format.json { render :show, status: :created, location: @book }
       else
         format.html { render :new }
@@ -42,7 +44,7 @@ class BooksController < ApplicationController
   def update
     respond_to do |format|
       if @book.update(book_params)
-        format.html { redirect_to @book, notice: 'Book was successfully updated.' }
+        format.html { redirect_to @book, notice: '更新が完了しました。' }
         format.json { render :show, status: :ok, location: @book }
       else
         format.html { render :edit }
@@ -56,7 +58,7 @@ class BooksController < ApplicationController
   def destroy
     @book.destroy
     respond_to do |format|
-      format.html { redirect_to books_url, notice: 'Book was successfully destroyed.' }
+      format.html { redirect_to books_url, notice: '削除が完了しました。' }
       format.json { head :no_content }
     end
   end
