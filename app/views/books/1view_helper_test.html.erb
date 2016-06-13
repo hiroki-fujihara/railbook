@@ -1,0 +1,17 @@
+﻿<p id="notice"><%= notice %></p>
+
+<h1>View Helper Test</h1>
+Title <br><%= text_field :book, :title>
+Isbn <br><%= number_field :book, :isbn %></br>
+Free Space <%= text_area :book, :memo %></br>
+Cd <br><%= check_box :book, :cd,{},0,1 %></br>
+<%= radio_button :user,:color "a" %>イケメン
+<%= radio_button :user,:color "b" %>かわいい
+<%= radio_button :user,:color "c" %>その他</br>
+Publish Address <%= select :user, :address,["島根県","三重県","ふじの新世界"] %></br>
+Publish <br><select id="book_publish" name="book[publish]">
+<option value="1">KONAMI</option>
+<option value="2">CAPCOM</option>
+<option value="3">任天堂</option>
+<%= link_to 'Back', books_path %>
+<%= image_tag 'image.jpeg'>

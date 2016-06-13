@@ -7,6 +7,9 @@ class BooksController < ApplicationController
     @books = Book.all
   end
 
+  def get
+  end
+
   # GET /books/1
   # GET /books/1.json
   def show
@@ -62,8 +65,11 @@ class BooksController < ApplicationController
   end
 
   def search
-    @books = Book.where(cd: true)
+    @books = Book.where(title: params["search"]["title"])
     render :index
+  end
+
+  def view_helper_test
   end
 
   private

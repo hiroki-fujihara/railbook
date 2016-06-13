@@ -1,0 +1,18 @@
+﻿<p id="notice"><%= notice %></p> 
+
+ 
+ <h1>View Helper Test</h1> 
+ Title</br><%= text_field :book,:title %></br> 
+ Isbn</br><%= number_field :book,:isbn %></br> 
+ Free Space</br><%= text_area :book,:memo %></br> 
+ Cd</br><%= check_box :book, :cd,{},0,1 %></br> 
+ <%= radio_button :user, :color, "a" %>いけめん 
+ <%= radio_button :user, :color, "b" %>かわいい 
+ <%= radio_button :user, :color, "c" %>その他</br> 
+ Publish Address</br><%= select :user,:address,["日本","三重","藤の新世界"] %></br> 
+ Publish</br><select id="book_publish" name="book[publish]"> 
+ <option value="1">こなみ</option> 
+ <option value="2">にんてんどう</option> 
+ <option value="3">かぷこん</option></select></br> 
+ <%= link_to 'Back', books_path %></br> 
+ <%= image_tag 'akogare.jpg' %> 
