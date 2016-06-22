@@ -3,7 +3,7 @@
 <h1>Listing Books</h1>
 
 <%= form_tag({:action=>"search"}) do %>
-  <%= text_field_tag "search[title]" %>
+  <%= text_field_tag "search[title]",@sagasu %>
   <%= link_to "ビュー",view_helper_test_books_path %>
   <%= submit_tag "検索" %>
   <%= link_to "リセット", books_path %>

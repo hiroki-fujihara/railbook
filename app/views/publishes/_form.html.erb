@@ -12,12 +12,12 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :publishname %><br>
-    <%= f.text_field :publishname %>
+    <%= f.label :publishname %>
+    <%= f.collection_select %>
   </div>
   <div class="field">
     <%= f.label :address %><br>
-    </br><%= select :user, :address,["出雲市","松江市","雲南市"] %></br>
+    <%= select :user, :address,["出雲市","松江市","雲南市"] %>
   </div>
   <div class="actions">
     <%= f.submit %>
