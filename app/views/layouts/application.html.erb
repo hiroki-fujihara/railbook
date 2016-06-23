@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
   <title>Railbook</title>
@@ -7,7 +7,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<%= image_tag "railbook.png" %>
+<ul><li><%= link_to "書籍一覧", "http://localhost:3000/books/" %>
+<li><%= link_to "出版社一覧", "http://localhost:3000/publishes/" %>
 <%= yield %>
 
 </body>
