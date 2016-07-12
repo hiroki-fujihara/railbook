@@ -9,6 +9,10 @@
   <strong>Body:</strong>
   <%= @review.body %>
 </p>
+<p>
+  <strong>User:</strong>
+  <%= @review.user.username %>
+</p>
 
 <%= link_to 'Edit', edit_review_path(@review) %> |
 <%= link_to 'Back', reviews_path %>

@@ -1,0 +1,83 @@
+[33mcommit 0f7472b7c88074b7014772d61e5dc2bc53888685[m
+Author: Hiroki Fujihara <hiroki-fujihara@outlook.jp>
+Date:   Tue Jul 12 17:34:26 2016 +0900
+
+    変更点A完了
+
+[33mcommit 8389d2374da56311fd70baf746b35ab9fdd45ae7[m
+Author: Hiroki Fujihara <hiroki-fujihara@outlook.jp>
+Date:   Tue Jul 12 16:14:24 2016 +0900
+
+    デバッグ作業後のレビューの変更後のやーつ
+
+[33mcommit d352f0dd0720e0a8a299a430dde980344fcf8516[m
+Author: Hiroki Fujihara <hiroki-fujihara@outlook.jp>
+Date:   Tue Jul 12 16:00:48 2016 +0900
+
+    reviewの変更点終了
+
+[33mcommit 0761c6ad746edab42aecea50cea9f5fc030cb9db[m
+Author: Hiroki Fujihara <hiroki-fujihara@outlook.jp>
+Date:   Wed Jul 6 10:10:47 2016 +0900
+
+    部分検索成功
+
+[33mcommit 0c5b1a45cdbf8bc81ecdeb38493d670d55e9a92f[m
+Author: Hiroki Fujihara <hiroki-fujihara@outlook.jp>
+Date:   Thu Jun 23 16:36:02 2016 +0900
+
+    追いついたぜ！！
+
+[33mcommit 89b220ddabda439239a2d2db86a0d9dd4c9cc692[m
+Author: Hiroki Fujihara <hiroki-fujihara@outlook.jp>
+Date:   Thu Jun 23 10:45:36 2016 +0900
+
+    不要なマイグレーションファイルを削除
+
+[33mcommit 50de953e7970a4b904510cfbda568ebbb358fb61[m
+Author: Hiroki Fujihara <hiroki-fujihara@outlook.jp>
+Date:   Thu Jun 23 10:44:13 2016 +0900
+
+    DBをrensyu1ブランチと同じものにした
+
+[33mcommit 6172ea02fe83bd31ab4057faa1aa7a4bac79e931[m
+Author: Hiroki Fujihara <hiroki-fujihara@outlook.jp>
+Date:   Thu Jun 23 10:38:43 2016 +0900
+
+    消したいやつ
+
+[33mcommit 3e3b36da1bc6db23d18d542d388af13ca5faf8f4[m
+Author: Hiroki Fujihara <hiroki-fujihara@outlook.jp>
+Date:   Wed Jun 1 10:51:29 2016 +0900
+
+    授業コミット２
+
+[33mcommit 6dbce40077f9c47b985443d418b36e1aa5993f64[m
+Author: Hiroki Fujihara <hiroki-fujihara@outlook.jp>
+Date:   Mon May 30 10:24:49 2016 +0900
+
+    授業コミット
+
+[33mcommit 2e52500b4793b2230a380230494345d8e16c834c[m
+Author: Hiroki Fujihara <hiroki-fujihara@outlook.jp>
+Date:   Mon May 9 13:06:06 2016 +0900
+
+    abc
+
+[33mcommit 4e852db554ade40f19dd5080e3abbd40de73f0f8[m
+Author: Hiroki Fujihara <hiroki-fujihara@outlook.jp>
+Date:   Mon May 9 12:56:42 2016 +0900
+
+    abcd
+
+[33mcommit 2687fa1955fbb9437ddf40f76dcef9c28364ba64[m
+Author: Hiroki Fujihara <hiroki-fujihara@outlook.jp>
+Date:   Mon May 9 12:42:13 2016 +0900
+
+    Second Commit
+
+[33mcommit 5fbce5c7aff2deaf81aff77ffa57c6606367b81e[m
+Author: Hiroki Fujihara <hiroki-fujihara@outlook.jp>
+Date:   Wed Apr 27 10:33:52 2016 +0900
+
+    First Commit
