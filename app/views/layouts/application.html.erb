@@ -8,8 +8,9 @@
 </head>
 <body>
 <%= image_tag "railbook.png" %>
-<ul><li><%= link_to "書籍一覧", "http://localhost:3000/books/" %>
-<li><%= link_to "出版社一覧", "http://localhost:3000/publishes/" %>
+<ul><li><%= link_to "書籍一覧", books_path %>
+<li><%= link_to "出版社一覧", publishes_path %>
+<li><%= link_to "レビュー一覧", reviews_path %>
 <%= yield %>
 
 </body>
