@@ -8,7 +8,6 @@ class UsersController < ApplicationController
   def index
     @users = User.all
   end
-
   # GET /users/1
   # GET /users/1.json
   def show
@@ -62,7 +61,6 @@ class UsersController < ApplicationController
       format.json { head :no_content }
     end
   end
-
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_user
@@ -73,12 +71,11 @@ class UsersController < ApplicationController
     def user_params
       params.require(:user).permit(:userid, :username, :password, :email)
     end
-
     def auth
-      name = 'izumo'
-      passwd = 'syogyo'
-      authenticate_or_request_with_http_basic('Railbook') do |n,p|
-        n == name && p == passwd
-      end
+       name = 'izumo'
+       passwd = 'syogyo'
+       authenticate_or_request_with_http_basic('Railbook') do |n,p|
+         n == name && p ==passwd
+       end
     end
 end
